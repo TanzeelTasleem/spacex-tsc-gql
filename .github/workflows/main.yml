@@ -28,11 +28,9 @@ jobs:
         with:
          node-version: '12'
       
-#       - name : Installing yarn   
-#         uses: borales/actions-yarn@v2.0.0
-#         with:
-#          cmd: install # will run `yarn install` command
-    
+      - name : Installing dependencies   
+        run: npm install
+      
       - name: build
         run: npm run build     
       
