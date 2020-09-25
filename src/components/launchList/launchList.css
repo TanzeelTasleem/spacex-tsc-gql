@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+.bg {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+}
+.bg2 {
+  height: 100vh;
+}
+h1 {
+  font-weight: 800;
+}
+.section-inner {
+  height: 80%;
+  color: white;
+}
+.text {
+  width: 350px;
+  padding: 5px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
